@@ -124,7 +124,7 @@ We want you to be able to work with a reasonable dataset (100X-1M docs) relative
 
 ### Experimentation, reranking, functionality over scalability
 
-Instead of building for 'big data' our goal is to build for for *small-data*. That is, focus on capabilities and expressiveness of Pandas, over limiting functionality in favor of scalability.
+Instead of building for 'big data' our goal is to build fo *small-data*. That is, focus on capabilities and expressiveness of Pandas, over limiting functionality in favor of scalability.
 
 To this end, the applications of searcharray will tend to be focused on experimentation and top N candidate reranking. For experimentation, we want any ideas expressed in Pandas to have a somewhat clear path / "contract" in how they'd be implemented in a classical lexical search engine. For reranking, we want to load some top N results from a base system and be able to modify them.
 
